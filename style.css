@@ -1,3 +1,70 @@
+body{
+  background-color:#ffffcc;
+}
+
+h1{
+  margin-top:0;
+  font-size:46px;
+  font-weight:bold;
+  color:#663300;
+}
+
+h2{
+  margin:5px 10px 5px 10px;
+  font-size:32px;
+  color: #996633;
+}
+
+li {
+  color:#996633;
+  padding-left:2px;
+  text-shadow: 2px 2px #ffcc99;
+  font-size:24px;
+}
+
 ul {
   list-style-type:none
+}
+
+button{
+  padding: 10px 20px 10px 20px;
+  border: 1px solid black;
+  border-radius: 10%;
+  box-shadow: 3px 3px #ffa54d;
+  background-color: #ffcc99;
+  color:;
+  font-size:16px;
+  text-decoration:none;
+  margin: 25px 0 100px 50px;
+}
+
+.nothing{
+  height:600px;
+  width:700px;
+  background-size: 700px 600px;
+  background: url("nothing-text.png"), url("nothing.png") ;
+  background-position: center top, center bottom;
+  background-repeat: no-repeat, no-repeat;
+}
+.unhealthy{
+  height:800px;
+  width:700px;
+  background-size: 700px 600px;
+  background: url("unhealthy-text.png"), url("unhealthy.jpg");
+  background-position: center top, center bottom;
+  background-repeat: no-repeat, no-repeat;
+}
+.medium{
+  height:550px;
+  width:700px;
+  background: url("medium-text.png"), url("medium.jpg");
+  background-position: center top, center bottom;
+  background-repeat: no-repeat, no-repeat;
+}
+.healthy{
+  height:610px;
+  width:700px;
+  background-image: url("healthy-text.png"), url("healthy.jpg");
+  background-position: center top, center bottom;
+  background-repeat: no-repeat, no-repeat;
 }
