@@ -1,20 +1,17 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Doctor's Orders</title>
-  <link type="txt/css" rel="stylesheet" href="style.css"/>
-</head>
+  <head>
+    <title>Doctor's Orders</title>
+    <link type="txt/css" rel="stylesheet" href="style.css"/>
+  </head>
 <body>
-<p>How healthy are you??</p>
+<h1 id="title">Doctor's Orders</h1>
 <div id="breakfast" class="meal">
   <h2>Breakfast</h2>
   <ul>
     <li><input type="radio" id="r1" value=0>Nothing</li>
-
     <li><input type="radio" id="r2" value=1>Cereal</li>
-
     <li><input type="radio" id="r3" value=2>Cooked breakfast</li>
-
     <li><input type="radio" id="r4" value=3>Beer</li>
   </ul>
 </div>
@@ -22,11 +19,8 @@
   <h2>Lunch</h2>
   <ul>
     <li><input type="radio" id="r5" value=0>Nothing</li>
-
     <li><input type="radio" id="r6" value=1>Sandwich</li>
-
     <li><input type="radio" id="r7" value=2>Salad</li>
-
     <li><input type="radio" id="r8" value=3>Burger King Whopper Supersize</li>
   </ul>
 </div>
@@ -34,15 +28,18 @@
   <h2>Dinner</h2>
   <ul>
     <li><input type="radio" id="r9" value=0>Nothing</li>
-
     <li><input type="radio" id="r10" value=1>Damn Good Pasta a la Francesco</li>
-
     <li><input type="radio" id="r11" value=2>Microwave Meal</li>
-
     <li><input type="radio" id="r12" value=3>Royal Banquet</li>
   </ul>
 </div>
 
+<input type="button" id="submitButton" value="Submit">
+
+<div id="results"></div>
+
+
 </body>
+<script src="script.js"></script>
 
 </html>
